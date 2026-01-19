@@ -14,7 +14,7 @@ Just run it, if they owe you , haha !!
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:lukesh-b/java-prjs.git
+git clone https://github.com/lukesh-b/java-prjs.git
 cd java-prjs
 
 2. Build using Maven:
