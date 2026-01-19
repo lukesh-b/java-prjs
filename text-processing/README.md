@@ -25,7 +25,7 @@ mvn clean compile
 ```
 => This will compile the source code and place the compiled .class files in the target directory.
 
-3. Run the Application on compiled
+3. Run the Application after compiling
 
 ```bash
 java -cp target/classes text_processing.TextProcessingUtils
