@@ -13,8 +13,9 @@ The project is built using Maven and follows a minimal setup suitable for demo p
 ### How to Run
 1. Clone the repo:
 ```bash
-git clone git@github.com:lukesh-b/java-prjs.git
+git clone https://github.com/lukesh-b/java-prjs.git
 cd java-prjs
+
 ```
 
 2. Build using Maven:
