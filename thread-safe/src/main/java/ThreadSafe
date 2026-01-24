@@ -1,0 +1,20 @@
+
+/* Implementing a thread safe counter in java */
+
+// ==> “Multiple threads may update the counter, so I’ll use an atomic variable to avoid race conditions.”
+
+import java.util.concurrent.atomic.AtomicInteger;
+
+public class ThreadSafe {
+
+    private final AtomicInteger count = new AtomicInteger(0);
+
+    public void increment(){
+        count.incrementAndGet();
+    }
+
+    public int get(){
+        return count.get();
+    }
+}
+
