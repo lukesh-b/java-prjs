@@ -1,0 +1,3 @@
+```
+This project demonstrates a simple thread-safe counter in Java using AtomicInteger. The counter supports atomic increment and read operations, ensuring correctness when accessed by multiple threads without requiring explicit synchronization. By leveraging the java.util.concurrent.atomic package, the implementation avoids race conditions while remaining efficient and easy to understand.
+```
